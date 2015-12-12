@@ -1,0 +1,68 @@
+package webdirectory.main.business.services;
+
+import java.util.Collection;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import webdirectory.main.business.dao.GroupDao;
+import webdirectory.main.model.Group;
+import webdirectory.main.model.Person;
+
+
+
+/**
+ * Service d'acces aux donnes metiers de type Group.
+ */
+public class GroupService implements IGroupService{
+	
+	GroupDao groupDao = new GroupDao();
+	
+	
+   /**
+	* Initialise la connexion a la base de donnes.
+    */
+	@PostConstruct
+	public void init() {
+		groupDao.init();
+	}
+
+	/**
+     * Retourne la liste de toutes les groupes.
+     * @return Liste de toutes les groupes present dans l'annuaire.
+     */
+     public Collection<Group> getAllGroups() {
+    	    groupDao.init();
+			List<Group> groups = groupDao.getAllGroups();
+			return groups;
+	  }
+     
+   /**
+ 	* @param id Identifiant du groupe.
+ 	* @return l'objet Group.
+ 	*/
+ 	public Group getGroup(long id){	
+ 		groupDao.init();
+ 		return groupDao.getGroup(id);
+ 	}
+ 	
+   /**
+ 	* Retourne les personnes contenu dans une groupe.
+ 	* @return Les personnes appartenant au groupe.
+ 	*/
+ 	public Collection<Person> getGroupContent(long id){
+ 		groupDao.init();
+ 		return groupDao.getContentGroup(id);
+ 	}
+	
+ 	   /**
+ 		* Permet de vérifier si un identifiant existe.
+ 		* @param id Identifiant d'un groupe.
+ 		* @return true si l'id existe, return flase si l'id n'existe pas.
+ 		*/
+ 		public boolean groupIDExists(long id){
+ 			groupDao.init();
+ 			return groupDao.groupIdExists(id);
+ 		}
+	
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="0" timestamp="-1" analysisTimestamp="1449567697520" release="">
+  <Project>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 8 Dec 2015 10:41:37 +0100" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="1.7.0_75" vm_version="24.75-b04" cpu_seconds="0.05" clock_seconds="0.08" peak_mbytes="553.59" alloc_mbytes="848.00" gc_seconds="0.00">
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

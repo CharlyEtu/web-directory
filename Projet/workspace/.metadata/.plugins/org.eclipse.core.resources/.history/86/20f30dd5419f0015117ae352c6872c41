@@ -1,0 +1,64 @@
+package webdir.main.web.imp;
+
+import java.util.Collection;
+import java.util.Date;
+import java.util.Iterator;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import webdir.main.business.dao.imp.GroupDao;
+import webdir.main.business.dao.imp.PersonDao;
+import webdir.main.business.services.IPersonService;
+import webdir.main.model.Group;
+import webdir.main.model.Person;
+import webdir.main.web.IHomeController;
+
+@Controller()
+@RequestMapping("*")
+public class HomeController implements IHomeController {
+
+	/** Service d'accès aux personnes */
+	private IPersonService personServ; 
+	
+	/** Logger d'apache */
+    private final Log logger = LogFactory.getLog(getClass());
+    
+    @PostConstruct
+    public void init() {
+    	personServ.init();
+    }
+    
+    @PreDestroy
+    public void close() {
+    	//personServ.close();
+    }
+    
+    @Autowired
+    public void setPersonServ(IPersonService personServ) {
+    	this.personServ = personServ;
+    }
+    
+    public IPersonService getPersonServ() {
+    	return personServ;
+    }
+
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public ModelAndView printHome(HttpServletRequest req) {
+        logger.info("Running " + this);
+        Collection<Person> pList = personServ.getAllPersons();
+        Iterator<Person> i = pList.iterator();
+        return new ModelAndView("home", "pList", i.next());
+    }
+}

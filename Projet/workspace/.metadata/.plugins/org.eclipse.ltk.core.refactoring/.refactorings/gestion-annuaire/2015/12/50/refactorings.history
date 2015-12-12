@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;web-directory/src/main.java&apos;&#x0A;- Original project: &apos;gestion-annuaire&apos;&#x0A;- Destination element: &apos;web-directory/src/main.java&apos;&#x0A;- Original elements:&#x0A;     gestion-annuaire/src/main/java/model&#x0A;     gestion-annuaire/src/main/java/service&#x0A;     gestion-annuaire/src/main/java/dao" description="Copy packages" destination="=web-directory/src&lt;main.java" element1="/src\/main\/java&lt;model" element2="/src\/main\/java&lt;service" element3="/src\/main\/java&lt;dao" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1449508618972" version="1.0"/>
+</session>

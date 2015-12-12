@@ -1,0 +1,33 @@
+<%@ include file="/WEB-INF/jsp/includes/include.jsp" %>
+
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="css/base.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/design.css" media="screen" />
+    <title>Annuaire web</title>
+  </head>
+  <body>
+  	<%@ include file="includes/header.jsp" %>
+    
+    <table>
+    	<tr>
+    		<th>Prénom</th>
+    		<th>Nom</th>
+    		<th>Site web</th>
+    		<th>Affectation</th>
+    	</tr>
+   		<c:forEach var="p" items="${personIterator}">
+   			<tr>
+   				<td><c:out value="${p.getFirstname()}" default="None" /></td>
+   				<td><c:out value="${p.getLastname()}" default="None" /></td>
+   				<td><c:out value="${p.getWebsite()}" default="None" /></td>
+   				<td><c:out value="${p.getGroup().getName()}" default="None" /></td>
+   			</tr>
+   		</c:forEach>
+    </table>
+    
+    <p><c:out value="${request.getContextPath()}" default="None" /></p>
+    
+	<%@ include file="includes/footer.jsp" %>	    
+  </body>
+</html>

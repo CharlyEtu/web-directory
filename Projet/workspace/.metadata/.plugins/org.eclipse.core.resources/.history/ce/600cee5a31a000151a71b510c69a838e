@@ -1,0 +1,20 @@
+<!-- PANNEAU LATÉRAL -->
+<div id="side_panel">
+	<!-- NAVIGATION -->
+    <div id="navigation">
+		<ul>
+		  <li>
+		    <a href="index.xhtml" title="Page d'accueil">Accueil</a>
+		  </li>
+		  <li>
+		    <a href="#" title="Mon Parcours">Mon Parcours</a>
+		  </li>
+		  <li>
+		    <a href="#" title="Projets Réalisés">Projets Réalisés</a>
+		  </li>
+		  <li>
+		    <a href="#" title="Ressources">Ressources</a>
+		  </li>
+		</ul>
+    </div>
+</div>

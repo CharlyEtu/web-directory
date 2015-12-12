@@ -1,0 +1,27 @@
+1449508513733	Move file
+1449508650604	Copy package
+1449508663170	Delete element
+1449509106153	Move file
+1449509115083	Delete element
+1449509263893	Rename package 'model'
+1449509354112	Rename package 'service'
+1449509672676	Delete element
+1449509699457	Rename package 'webdirectory.webapp'
+1449509789029	Rename package 'main.java.model'
+1449510137868	Rename package 'main.java.dao'
+1449510156518	Rename package 'main.java.service'
+1449569151501	Delete element
+1449743380484	Move compilation units
+1449743408899	Rename package 'webdirectory.main.business.dao'
+1449743417458	Rename package 'webdirectory.main.business.services'
+1449743428442	Rename package 'webdirectory.main.business.services.imp'
+1449743446457	Rename package 'webdirectory.main.model'
+1449743458360	Rename package 'webdirectory.main.web'
+1449743492901	Move compilation units
+1449743550638	Copy compilation unit
+1449756813782	Move 'design.css' to 'jsp'
+1449756877780	Move 'design.css' to 'css'
+1449757014304	Move 'include.jsp' to 'includes'
+1449767131600	Move 'css' to 'WebContent'
+1449857038344	Rename resource 'include.jsp'
+1449858038581	Rename resource 'prefixes.jsp'
