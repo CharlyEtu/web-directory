@@ -6,6 +6,7 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import webdir.main.business.dao.IPersonDao;
@@ -17,6 +18,7 @@ import webdir.main.model.User;
 /**
  * Service d'acces aux donnes metiers de type Person.
  */
+@Component
 @Service
 public class PersonService implements IPersonService {
 
@@ -24,6 +26,16 @@ public class PersonService implements IPersonService {
 	IPersonDao personDao;
 	
 	
+	public IPersonDao getPersonDao() {
+		return personDao;
+	}
+
+
+	public void setPersonDao(IPersonDao personDao) {
+		this.personDao = personDao;
+	}
+
+
 	/**
 	 * Initialise la connexion a la base de donnes.
 	 */
@@ -48,7 +60,6 @@ public class PersonService implements IPersonService {
 	* @return l'objet Personne.
 	*/
 	public Person getPerson(long id) throws Exception{	
-		personDao.init();
 		return personDao.getPerson(id);
 	}
 

@@ -1,19 +1,23 @@
 package webdir.main.business.services.imp;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import webdir.main.business.dao.IPersonDao;
-import webdir.main.business.dao.imp.PersonDao;
 import webdir.main.business.services.IEmailService;
 import webdir.main.business.services.IUserService;
 import webdir.main.model.Person;
 
 /**
  * Classe pour l'authentificaion.
- *
- */
+*/
+@Component
+@Service
 public class UserService implements IUserService {
 	
-    
-	IPersonDao personDao = new PersonDao();
+	@Autowired
+	IPersonDao personDao;
     
     private Person person;
 	
@@ -25,8 +29,7 @@ public class UserService implements IUserService {
     */
 	public boolean connect(long login, String password) throws Exception{
 		
-		personDao.init();
-		if(((PersonDao) personDao).personIDExists(login)){
+		if( personDao.personIDExists(login)){
 			
 			person = personDao.getPerson(login);
 			
@@ -52,7 +55,8 @@ public class UserService implements IUserService {
 		
 		String recipient = person.getEmail();
 		String subject = "récupération de votre mot de passe";
-		String content = "Votre mot de passe est: " + password + "\n";
+		String content = "Bonjour, \n\n Votre mot de passe est: " + password + "\n\n "
+						+ "L'Equipe Secu Webdirectory";
 		
 		emailService.sendEmail(recipient, subject, content);
 	}

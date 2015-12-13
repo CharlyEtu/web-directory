@@ -8,6 +8,8 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import webdir.main.business.dao.IGroupDao;
 import webdir.main.business.services.IGroupService;
@@ -19,6 +21,8 @@ import webdir.main.model.Person;
 /**
  * Service d'acces aux donnes metiers de type Group.
  */
+@Component
+@Service
 public class GroupService implements IGroupService{
 	
 	@Autowired

@@ -15,6 +15,7 @@ import webdir.main.business.services.IEmailService;
 public class EmailService implements IEmailService {
 	
 	
+	
    /**
 	* Permet d'envoyer un e-mail.
 	* @param recipient adresse e-mail du destinatire.
@@ -22,6 +23,9 @@ public class EmailService implements IEmailService {
 	* @param content contenu de l'e-mail (Texte).
 	*/
 	public void sendEmail(String recipient, String subject, String content) throws MessagingException{
+		
+		final String username = "secu.webdirectory.luminy@gmail.com";
+		final String password = "Masterfsi";
 		
 		/* Paramètre de configuration Gmail */
 		Properties props = new Properties();
@@ -34,13 +38,13 @@ public class EmailService implements IEmailService {
 		Session session = Session.getInstance(props,
 		  new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("xxxxxxxx@gmail.com", "*********");
+				return new PasswordAuthentication(username, password);
 			}
 		  });
  
 		/* Envoie du mail au destinataire */
 		Message message = new MimeMessage(session);
-		message.setFrom(new InternetAddress("xxxxxxxx@gmail.com"));
+		message.setFrom(new InternetAddress(username));
 		message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipient));
 		message.setSubject(subject);
 		message.setText(content);

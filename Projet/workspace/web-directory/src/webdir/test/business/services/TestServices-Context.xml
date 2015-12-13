@@ -21,8 +21,6 @@
 	<context:component-scan base-package="webdir.main.business.services.imp" />
 	<context:component-scan base-package="webdir.main.business.services" />
 	
-	
-
 	<!-- BEANS -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
@@ -49,11 +47,8 @@
         <property name="entityManagerFactory" ref="myEntityManagerFactory" />
     </bean>
     
-
     <!-- Prise en compte des annotations @Transactional -->
     <tx:annotation-driven transaction-manager="txManager" />
     
-   
-   
 	
 </beans>

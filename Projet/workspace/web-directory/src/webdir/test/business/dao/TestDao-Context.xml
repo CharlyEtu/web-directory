@@ -48,12 +48,9 @@
     <bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="myEntityManagerFactory" />
     </bean>
-    
 
     <!-- Prise en compte des annotations @Transactional -->
     <tx:annotation-driven transaction-manager="txManager" />
-    
-   
-   
+
 	
 </beans>
