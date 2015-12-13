@@ -1,8 +1,3 @@
-/** NOTES
- * FIXME - Création d'un nouvel EntityManager à chaque ?
- * 		   (Ne faudrait-il pas un seul à l'initialisation ?) 
- */
-
 package webdir.main.business.dao.imp;
 
 import java.util.List;
@@ -19,14 +14,18 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import webdir.main.business.dao.IPersonDao;
+import webdir.main.model.Group;
 import webdir.main.model.Person;
+
+
 
 @Service
 @Transactional
 public class PersonDao implements IPersonDao {
 
-    @Autowired
+    
     @PersistenceContext(unitName = "myData")
+    @Autowired
     private EntityManager em;
     
     private EntityManagerFactory factory = null;
@@ -36,6 +35,7 @@ public class PersonDao implements IPersonDao {
 	      factory = Persistence.createEntityManagerFactory("myData");
 	}
 
+    
    /**
     * Permet d'ajouter une personne dans la base de donnees.
     * Insert ....
@@ -59,7 +59,7 @@ public class PersonDao implements IPersonDao {
 
    /**
 	* Retourne toutes les personnes present dans la base de donnees.
-	* SELECT ...
+	* SELECT * FROM Person;
 	*/
 	public List<Person> getAllPersons() {
 		
@@ -68,8 +68,9 @@ public class PersonDao implements IPersonDao {
 		            getResultList();	
 	}
 
+	
    /**
-	* Retourne l'objet Person correspondant à l'ID passe en parametre
+	* Retourne l'objet Person  dont l'ID correspond à l'ID passe en parametre
 	* @param id numero identifiant d'une personne.
 	* @return Objet Person correspondant à l'ID passe en parametre
 	*/
@@ -80,13 +81,14 @@ public class PersonDao implements IPersonDao {
 	   query.setParameter("arg", id);
 	   return (Person) query.getSingleResult();
 	}
+
 	
    /**
 	* Permet de vérifier si l'id d'une personne existe dans la base de donnees.
 	* @param id identifiant de la personne.
     * @return True ou False.
     */
-	public boolean personIdExists(long id){
+	public boolean personIDExists(long id){
 		
 		em = factory.createEntityManager();
 		Query query = em.createQuery("Select p From Person p where p.id=:arg", Person.class);
@@ -98,5 +100,38 @@ public class PersonDao implements IPersonDao {
 	    
 	    return true;	
 	}
+
+		
+   /**
+	* Permet de modifier une ou pluieurs donnees contenues dans un tuple de table Person
+	*/
+	public void updatePerson(Person person){
+		
+		Person personDao = em.find(Person.class, person.getId());
+		em.getTransaction().begin();
+		
+		personDao.setFirstname(person.getFirstname());
+		personDao.setLastname(person.getLastname());
+		personDao.setBirthdate(person.getBirthdate());
+		personDao.setEmail(person.getEmail());
+		personDao.setWebsite(person.getWebsite());
+		
+		if( person.getGroup() != null){
+			Group  group = new Group();
+			group.setGroupID(person.getGroup().getGroupID());
+			group.setName(person.getGroup().getName());
+			personDao.setGroup(group);
+		}
+		
+		em.getTransaction().commit();
+	}
+
+   /**
+	* Fermeture de l'entityManager
+	*/
+	public void close() {
+		em.close();
+	}
+	
 	
 }

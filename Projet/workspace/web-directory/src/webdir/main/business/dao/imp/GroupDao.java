@@ -18,6 +18,7 @@ import webdir.main.business.dao.IGroupDao;
 import webdir.main.model.Group;
 import webdir.main.model.Person;
 
+
 @Service
 @Transactional
 public class GroupDao implements IGroupDao {
@@ -35,8 +36,7 @@ public class GroupDao implements IGroupDao {
 	}
 
    /**
-    * Permet d'ajouter une Groupne dans la base de donnees.
-    * Insert ....
+    * Permet d'ajouter un Groupe dans la base de donnees.
     */
 	public void addGroup(Group g) {
 		
@@ -55,8 +55,8 @@ public class GroupDao implements IGroupDao {
 
 
    /**
-	* Retourne toutes les Groupnes present dans la base de donnees.
-	* SELECT ...
+	* Retourne tous les Groupes present dans la base de donnees.
+	* SELECT * FROM Group_;
 	*/
 	public List<Group> getAllGroups() {
 		
@@ -67,9 +67,8 @@ public class GroupDao implements IGroupDao {
 	
 	public Group getGroup(long id) {
 
-	   return em.createQuery("Select g From Group_ g where g.group_id=:arg", Group.class)
+	   return em.createQuery("Select g From Group_ g where g.groupID=:arg", Group.class)
 			   .setParameter("arg", id).getSingleResult();
-
 	}
 	
    /**
@@ -79,7 +78,7 @@ public class GroupDao implements IGroupDao {
 	*/
 	public Collection<Person> getContentGroup(long id){
 		
-		return em.createQuery("Select p From Person p where p.group.group_id=:arg", Person.class)
+		return em.createQuery("Select p From Person p where p.group.groupID=:arg", Person.class)
 		.setParameter("arg", id).getResultList();	
 	}
 	
@@ -92,14 +91,17 @@ public class GroupDao implements IGroupDao {
 	public boolean groupIdExists(long id){
 		
 		em = factory.createEntityManager();
-		Query query = em.createQuery("Select g From Group_ g where g.group_id=:arg", Group.class);
+		Query query = em.createQuery("Select g From Group_ g where g.groupID=:arg", Group.class);
 	    query.setParameter("arg", id);
 	    
 	    if(query.getResultList().size() == 0){
 	    	return false;
-	    }
-	    
+	    } 
 	    return true;	
+	}
+	
+	public void close(){
+		em.clear();
 	}
 	
 }
