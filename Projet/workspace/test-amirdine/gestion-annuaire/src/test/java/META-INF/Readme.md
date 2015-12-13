@@ -1,0 +1,1 @@
+Ce fichier de persistence (src/test/java) sert à faire des tests unitaires.
