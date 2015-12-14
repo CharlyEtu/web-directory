@@ -1,0 +1,12 @@
+span#affect {
+	float: right;
+	
+	padding: 5px;
+	border: solid 1px black;
+	
+    font-weight: bold;
+}
+
+img#webIconMini {
+	vertical-align: middle;
+}

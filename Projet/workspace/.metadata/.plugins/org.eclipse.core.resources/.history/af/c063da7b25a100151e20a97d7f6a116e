@@ -1,0 +1,50 @@
+package webdir.main.model;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class AuthenticationForm {
+	/** Login utilisateur */
+	private String login;
+	
+	/** Mot de passe correspondant */
+	private String pwd;
+	
+	/**
+	 * Obtenir le login utilisateur.
+	 * @return Le login.
+	 */
+	public String getLogin() {
+		return login;
+	}
+	
+	/**
+	 * Initialiser le login utilisateur.
+	 * @param login La valeur à affecter
+	 */
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	
+	/**
+	 * Obtenir le mot de passe.
+	 * @return Le mot de passe
+	 */
+	public String getPwd() {
+		return pwd;
+	}
+	
+	/**
+	 * Initialiser le mot de passe.
+	 * @param pwd La valeur à affecter.
+	 * @throws NoSuchAlgorithmException 
+	 */
+	public void setPwd(String pwd) throws NoSuchAlgorithmException {
+		byte[] pwdBytes;
+		MessageDigest md = MessageDigest.getInstance("SHA-256");
+		
+		pwdBytes = md.digest(pwd.getBytes());
+		
+		this.pwd = new String(pwdBytes);
+	}
+}

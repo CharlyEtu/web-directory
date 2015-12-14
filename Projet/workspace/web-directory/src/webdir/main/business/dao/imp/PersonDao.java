@@ -81,6 +81,19 @@ public class PersonDao implements IPersonDao {
 	   return (Person) query.getSingleResult();
 	}
 	
+	/**
+	* Retourne la personne propriétaire de l'adresse email donnée en paramètre.
+	* @param email L'email de la personne recherchée.
+	* @return La personne correspondante.
+	*/
+	public Person getPerson(String email) throws Exception {
+
+	   em = factory.createEntityManager();
+	   Query query = em.createQuery("Select p From Person p Where p.email=:arg", Person.class);
+	   query.setParameter("arg", email);
+	   return (Person) query.getSingleResult();
+	}
+	
    /**
 	* Permet de vérifier si l'id d'une personne existe dans la base de donnees.
 	* @param id identifiant de la personne.

@@ -51,6 +51,15 @@ public class PersonService implements IPersonService {
 		personDao.init();
 		return personDao.getPerson(id);
 	}
+	
+	/**
+	* @param email Email de la personne
+	* @return La personne correspondante.
+	*/
+	public Person getPerson(String email) throws Exception {	
+		personDao.init();
+		return personDao.getPerson(email);
+	}
 
    /**
 	* Permet de vérifier si un identifiant existe.

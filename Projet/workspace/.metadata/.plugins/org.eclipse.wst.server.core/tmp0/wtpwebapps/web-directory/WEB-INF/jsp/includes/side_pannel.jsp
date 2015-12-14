@@ -1,10 +1,10 @@
-<%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
+<c:url var="home" value="/home" />
 
-<!-- PANNEAU LATÉRAL -->
 <div id="side_panel">
 	<!-- NAVIGATION -->
     <div id="navigation">
 		<ul>
+			<li><a href="${home}" title="Accueil">Accueil</a></li>
 			<c:forEach var="g" items="${groupIterator}">
 				<li>
 		    		<a href="groups/${g.getName()}"

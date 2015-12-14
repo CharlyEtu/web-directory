@@ -1,5 +1,9 @@
 <%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
 
+<c:url var="webIcon" value="resources/img/world-wide-web-24958_960_720-2.gif" />
+<c:url var="sheet" value="/usersheet"/>
+<c:url var="sheetIcon" value="resources/img/user_file.jpg" />
+
 <html>
   <!-- EN-TÊTE DE LA PAGE (Meta-informations) -->
   <head>
@@ -26,6 +30,9 @@
 	    		<th>Nom</th>
 	    		<th>Web</th>
 	    		<th>Affectation</th>
+	    		<c:if test="${userInfo.isAuthenticated()}">
+	    			<th>Fiche</th>
+	    		</c:if>
 	    	</tr>
 	    	<!-- Listing des personnes -->
 	   		<c:forEach var="p" items="${personIterator}">
@@ -35,10 +42,17 @@
 	   				<td style="text-align: center;">
 	   					<a href="https://${p.getWebsite()}" 
 	   					   title="Site web de ${p.getFirstname()} ${p.getLastname()}">
-	   						<img src="img/world-wide-web-24958_960_720-2.gif" alt="web" />
+	   						<img src="${webIcon}" alt="web" />
 	   					</a>
 	   				</td>
 	   				<td><c:out value="${p.getGroup().getName()}" default="None" /></td>
+	   				<c:if test="${userInfo.isAuthenticated()}">
+	   					<td style="text-align: center;">
+	   						<a href="${sheet};id=${p.getId()}" title="Fiche détaillée de ${p.getFirstname()} ${p.getLastname()}">
+	   							<img src="${sheetIcon}" alt="fiche" />
+	   						</a>
+	   					</td>
+	   				</c:if>
 	   			</tr>
 	   		</c:forEach>
 	    </table>

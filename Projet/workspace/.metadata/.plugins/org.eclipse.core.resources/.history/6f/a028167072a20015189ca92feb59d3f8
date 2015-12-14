@@ -1,0 +1,56 @@
+<%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
+
+<c:url var="webIconMini" value="resources/img/world-wide-web-24958_960_720-2-mini.gif" />
+<c:url var="editSheet" value="/sheet/edit" />
+<c:url var="modifPwd" value="/sheet/pwd" />
+
+<html>
+	<!-- EN-TÊTE DE LA PAGE (Meta-informations) -->
+	<head>
+		<%@ include file="includes/stylesheets.jsp" %>
+		<link rel="stylesheet" type="text/css" href="<c:url value="resources/css/sheet.css" />"/>
+		<title>Annuaire web</title>
+	</head>
+	
+	<!-- CORPS DE LA PAGE -->
+	<body>
+		<!-- HEADER -->
+		<%@ include file="includes/header.jsp" %>
+
+		<!-- PANNEAU LATÉRAL -->
+		<%@ include file="includes/side_pannel.jsp" %>
+   
+   		<!-- CONTENU -->
+		<div id="contents">
+    		<h2>${person.getFirstname()} ${person.getLastname()}</h2>
+    		<p>
+    			Né le : ${person.getBirthdate()}
+    			<span id="affect">
+    				${person.getGroup().getName()}
+    			</span>
+    		</p>
+    		<p>Email : ${person.getEmail()}
+    		<p>
+    			<img id="webIconMini" src="${webIconMini}" />
+    			<a href="https://${person.getWebsite()}"
+    			  title="Site web de ${person.getFirstname()} ${person.getLastname()}">
+    				Site web personnel
+    			</a> 
+    		</p>
+    		<c:if test="${person.getId() == userInfo.getId()}">
+    			<p>
+    				<a href="${editSheet}" title="Éditer votre fiche">
+    					Éditer ma fiche
+    				</a>
+    				 
+    				<a href="${modifPwd}" title="Modifier votre mot de passe">
+    					Modifier mon mot de passe
+    				</a>
+    			</p>
+    		</c:if>
+		</div>
+   
+   		<!-- FOOTER -->
+		<%@ include file="includes/footer.jsp" %>	    
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+       http://www.springframework.org/schema/beans     
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+	<!-- CONTEXT -->
+	<context:component-scan base-package="webdir.main.web" />
+	<context:component-scan base-package="webdir.main.web.imp" />
+
+	<!-- BEANS -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+    	
+    	<property name="prefix" value="/WEB-INF/jsp/"></property>
+    	<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+	<bean id="personServ" class="webdir.main.business.services.imp.PersonService" />
+	
+	<bean id="groupServ" class="webdir.main.business.services.imp.GroupService" />
+	
+	<bean id="homeController" class="webdir.main.web.imp.HomeController">
+		<property name="logger" value="org.apache.commons.logging.LogFactory.getLog(getClass())" />
+	</bean>
+</beans>

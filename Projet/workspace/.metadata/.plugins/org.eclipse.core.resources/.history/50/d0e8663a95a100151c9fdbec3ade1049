@@ -1,0 +1,45 @@
+package webdir.main.web.imp;
+
+import org.springframework.stereotype.Service;
+import org.springframework.validation.Errors;
+import org.springframework.validation.ValidationUtils;
+import org.springframework.validation.Validator;
+
+import webdir.main.business.services.imp.PersonService;
+import webdir.main.model.AuthenticationForm;
+
+@Service
+public class AuthenticationValidator implements Validator {
+	
+	/** Service d'accès aux personnes */
+	private PersonService personServ;
+	
+	/**
+	 * Obtenir le service d'accès aux personnes de ce validateur.
+	 * @return Le service d'accès aux personnes.
+	 */
+	public PersonService getPersonServ() {
+		return personServ;
+	}
+	
+	@Autowired
+	public void setPersonServi(PersonService personServ) {
+		this.personServ = personServ;
+	}
+
+	@Override
+	public boolean supports(Class<?> clazz) {
+		return AuthenticationForm.class.isAssignableFrom(clazz);
+	}
+	
+	@Override
+	public void validate(Object target, Errors errors) {
+		AuthenticationForm form = (AuthenticationForm) target;
+		
+		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "login", 
+				"authentication.login", "L'email est requis !");
+		
+		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "pwd", 
+				"authentication.pwd", "Le mot de passe est requis !");
+	}
+}

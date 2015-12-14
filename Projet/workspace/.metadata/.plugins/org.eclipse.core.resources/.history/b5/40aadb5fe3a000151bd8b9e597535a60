@@ -1,0 +1,8 @@
+package webdir.main.web;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public interface IAuthenticationController {
+	
+	public ModelAndView printSingIn();
+}

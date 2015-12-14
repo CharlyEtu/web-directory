@@ -1,0 +1,5 @@
+package webdir.main.web;
+
+public class IAuthenticationController {
+
+}

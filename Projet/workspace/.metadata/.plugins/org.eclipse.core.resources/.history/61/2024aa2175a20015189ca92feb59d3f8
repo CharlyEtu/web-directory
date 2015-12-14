@@ -1,0 +1,20 @@
+span#affect {
+	float: right;
+	
+	padding: 5px;
+	border: solid 1px black;
+	
+    font-weight: bold;
+}
+
+img#webIconMini {
+	vertical-align: middle;
+}
+
+p#editLinks {
+	float: right;
+}
+
+p#editLinks a {
+	margin: 5px;
+}

@@ -1,0 +1,58 @@
+package webdir.main.model;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class AuthenticationForm {
+	protected Log logger = LogFactory.getLog(getClass());
+	
+	/** Login utilisateur */
+	private String login;
+	
+	/** Mot de passe correspondant */
+	private String pwd;
+	
+	/**
+	 * Obtenir le login utilisateur.
+	 * @return Le login.
+	 */
+	public String getLogin() {
+		return login;
+	}
+	
+	/**
+	 * Initialiser le login utilisateur.
+	 * @param login La valeur à affecter
+	 */
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	
+	/**
+	 * Obtenir le mot de passe.
+	 * @return Le mot de passe
+	 */
+	public String getPwd() {
+		return pwd;
+	}
+	
+	/**
+	 * Initialiser le mot de passe. La valeur donnée en paramètre est
+	 * automatiquement hashé par l'algorithme SHA-256.
+	 * FIXME Trouver le moyen pour que le mot de passe ne soit pas envoyé en clair,
+     * 		 lors de la réponse au formulaire d'authentification.
+	 * @param pwd La valeur à affecter.
+	 * @throws NoSuchAlgorithmException 
+	 */
+	public void setPwd(String pwd) throws NoSuchAlgorithmException {
+		byte[] pwdBytes;
+		MessageDigest md = MessageDigest.getInstance("SHA-256");
+		
+		pwdBytes = md.digest(pwd.getBytes());
+		
+		this.pwd = new String(pwdBytes);
+	}
+}

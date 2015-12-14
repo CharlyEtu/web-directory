@@ -8,5 +8,11 @@ public interface IPersonDao {
 
 	public void addPerson(Person person);
 	public Person getPerson(long id) throws Exception;
+	/**
+	* Retourne la personne propriétaire de l'adresse email donnée en paramètre.
+	* @param email L'email de la personne recherchée.
+	* @return La personne correspondante.
+	*/
+	public Person getPerson(String email) throws Exception;
 	public List<Person> getAllPersons();
 }

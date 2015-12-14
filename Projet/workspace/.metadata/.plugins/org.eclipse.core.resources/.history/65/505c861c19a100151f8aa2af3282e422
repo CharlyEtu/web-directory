@@ -1,0 +1,41 @@
+package webdir.main.model;
+
+public class AuthenticationForm {
+	/** Login utilisateur */
+	private String login;
+	
+	/** Mot de passe correspondant */
+	private String pwd;
+	
+	/**
+	 * Obtenir le login utilisateur.
+	 * @return Le login.
+	 */
+	public String getLogin() {
+		return login;
+	}
+	
+	/**
+	 * Initialiser le login utilisateur.
+	 * @param login La valeur à affecter
+	 */
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	
+	/**
+	 * Obtenir le mot de passe.
+	 * @return Le mot de passe
+	 */
+	public String getPwd() {
+		return pwd;
+	}
+	
+	/**
+	 * Initialiser le mot de passe.
+	 * @param pwd La valeur à affecter.
+	 */
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+}

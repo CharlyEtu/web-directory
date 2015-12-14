@@ -1,0 +1,113 @@
+package webdir.main.web.imp;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import webdir.main.business.services.IPersonService;
+import webdir.main.model.AuthenticationForm;
+import webdir.main.model.Person;
+import webdir.main.web.IAuthenticationController;
+
+@Controller()
+@RequestMapping("*")
+public class AuthenticationController extends WebDirController 
+	implements IAuthenticationController {
+	
+	/** Service d'accès aux personnes */
+	private IPersonService personServ;
+	
+	/** Validateur d'authentification */
+	private AuthenticationValidator validator;
+	
+	/**
+	 * Initialiser le controller
+	 */
+	@PostConstruct
+	@Override
+	public void init() {
+		super.init();
+		personServ.init();
+		validator.init();
+	}
+	
+	/**
+	 * Fermer le controller
+	 */
+	@PreDestroy
+	@Override
+	public void close() {
+		//groupServ.close();
+		//personServ.close();
+		validator.close();
+	}
+	
+	/**
+	 * Obtenir le validateur d'authentification.
+	 * @return Le validateur.
+	 */
+	public AuthenticationValidator getValidator() {
+		return validator;
+	}
+	
+	/**
+	 * Affecter le validateur d'authentification.
+	 * @param validator Le validateur à affecter.
+	 */
+	@Autowired
+	public void setValidator(AuthenticationValidator validator) {
+		this.validator = validator;
+	}
+	
+	@ModelAttribute
+	public AuthenticationForm newForm() {
+		return new AuthenticationForm();
+	}
+	
+    @RequestMapping(value="/signin", method = RequestMethod.GET)
+    public ModelAndView printSignIn(@ModelAttribute AuthenticationForm form) {
+    	logger.info("SignIn page printing with " + this);
+    	
+    	return getModelAndView("signin");
+    }
+    
+    /**
+     * FIXME Trouver le moyen pour que le mot de passe ne soit pas envoyé en clair,
+     * 		 lors de la réponse au formulaire d'authentification.  
+     * @throws Exception 
+     */
+    @RequestMapping(value="/signin", method = RequestMethod.POST)
+    public ModelAndView authenticate(@ModelAttribute AuthenticationForm form,
+    BindingResult res) throws Exception {
+    	Person p;
+    	
+    	validator.validate(form, res);
+    	
+    	if(res.hasErrors())
+    		return getModelAndView("signin");
+    	else {
+			p = personServ.getPerson(form.getLogin());
+    		
+    		userInfo.setAuthenticated(true);
+    		userInfo.setId(p.getId());
+    		userInfo.setFirstName(p.getFirstname());
+    		userInfo.setLastName(p.getLastname());
+    	}
+    	
+    	return getModelAndView("redirect:/home");
+    }
+    
+    @RequestMapping(value="/signout")
+    public ModelAndView signOut() {
+    	userInfo.setAuthenticated(false);
+    	
+    	return getModelAndView("redirect:/home");
+    }
+}

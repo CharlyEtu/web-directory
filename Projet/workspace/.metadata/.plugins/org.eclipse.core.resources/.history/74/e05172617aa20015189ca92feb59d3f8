@@ -1,0 +1,31 @@
+package webdir.main.web.imp;
+
+import org.springframework.web.bind.annotation.MatrixVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("/usersheet")
+public class UserSheetController {
+
+	@RequestMapping(value="/usersheet{id}", method = RequestMethod.GET)
+    public ModelAndView printPersonSheet(@MatrixVariable long id) {
+    	ModelAndView sheet = getModelAndView("sheet");
+    	
+    	if(userInfo.isAuthenticated()) {
+	    	try {
+	    		sheet.addObject("person", personServ.getPerson(id));
+			} catch (Exception e) {
+				logger.error("Requested person not found (Person id : " + id + ". "
+								+ "Controller : " + this);
+				errorPage("Désolé, la personne demandée est introuvable.");
+			}
+	    	
+	    	return sheet;
+    	}
+    	else
+    		return warningPage("Vous devez être connecté à votre compte "
+    				+ "utilisateur pour avoir accès à cette page.");
+    }
+}

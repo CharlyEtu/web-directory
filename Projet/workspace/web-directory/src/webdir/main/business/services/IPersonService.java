@@ -21,6 +21,12 @@ public interface IPersonService {
     */
 	public Person getPerson(long id) throws Exception;
 	
+	/**
+	* @param email Email de la personne
+	* @return La personne correspondante.
+	*/
+	public Person getPerson(String email) throws Exception;
+	
    /**
     * Permet de vérifier si un identifiant existe.
     * @param id Identifiant d'une personne.

@@ -25,3 +25,9 @@
 1449767131600	Move 'css' to 'WebContent'
 1449857038344	Rename resource 'include.jsp'
 1449858038581	Rename resource 'prefixes.jsp'
+1449926961133	Copy file
+1449926986419	Rename resource 'login.jsp'
+1449935291459	Rename type 'Controller'
+1449943265686	Delete element
+1449943295239	Move 'img' to 'resources'
+1449943298111	Move 'css' to 'resources'

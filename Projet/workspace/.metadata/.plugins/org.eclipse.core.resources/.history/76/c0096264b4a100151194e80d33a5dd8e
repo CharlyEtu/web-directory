@@ -1,0 +1,79 @@
+package webdir.main.model;
+
+import java.io.Serializable;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
+import org.springframework.stereotype.Component;
+
+@Component("userInfo")
+@Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
+public class UserInfo implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	/** Prénom de l'utilisateur courant. */
+	private String firstName;
+	
+	/** Nom de l'utilisateur courant. */
+	private String lastName;
+	
+	/** L'utilisateur courant est-il authentifié ? */
+	private boolean authenticated;
+	
+	/**
+	 * Obtenir le prénom de l'utilisateur courant.
+	 * @return Le prénom de l'utilisateur courant.
+	 */
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	/**
+	 * Définir le prénom de l'utilisateur courant.
+	 * @param firstName Le prénom à affecter.
+	 */
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	
+	/**
+	 * Obtenir le nom de l'utilisateur courant.
+	 * @return Le nom de l'utilisateur courant.
+	 */
+	public String getLastName() {
+		return lastName;
+	}
+	
+	/**
+	 * Définir le nom de l'utilisateur courant.
+	 * @param lastName Le nom à affecter.
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	/**
+	 * Savoir si l'utilisateur courant est authentifié.
+	 * @return true si l'utilisateur est auhentifié, false sinon.
+	 */
+	public boolean isAuthenticated() {
+		return authenticated;
+	}
+	
+	/**
+	 * Définir si l'utilisateur courant est authentifié.
+	 * @param authenticated Valeur à affecter
+	 * 		  (true si l'utilisateur est auhentifié, false sinon).
+	 */
+	public void setAuthenticated(boolean authenticated) {
+		this.authenticated = authenticated;
+	}
+	
+	public boolean isAnonymous() {
+		if((firstName == null) && (lastName == null))
+			return true;
+		else
+			return false;
+	}
+}
