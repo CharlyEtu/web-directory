@@ -24,7 +24,7 @@ public class EmailService implements IEmailService {
 	private  String username;
 	private  String password;
 	private  Properties prop;
-	private Session session;
+	private  Session session;
 	
 	
 	public void setProp(Properties prop) {
@@ -41,7 +41,8 @@ public class EmailService implements IEmailService {
 	
 	@PostConstruct
 	public void init() {
-		/* Session et authentification */
+	/* Session et authentification */
+		
 	session = Session.getInstance(prop, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication(username, password);
@@ -49,7 +50,8 @@ public class EmailService implements IEmailService {
 		  });
 	}
 	
-   /**
+	
+       /**
 	* Permet d'envoyer un e-mail.
 	* @param recipient adresse e-mail du destinatire.
 	* @param subject sujet de l'e-mail.
@@ -57,14 +59,6 @@ public class EmailService implements IEmailService {
 	*/
 	public void sendEmail(String recipient, String subject, String content) throws MessagingException{
 				
-		/* Session et authentification */
-		session = Session.getInstance(prop,
-		  new javax.mail.Authenticator() {
-			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication(username, password);
-			}
-		  });
- 
 		/* Envoie du mail au destinataire */
 		Message message = new MimeMessage(session);
 		message.setFrom(new InternetAddress(username));
