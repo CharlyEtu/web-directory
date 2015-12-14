@@ -3,6 +3,7 @@ package webdir.main.business.services;
 import java.util.Collection;
 
 import webdir.main.model.Person;
+import webdir.main.model.User;
 
 public interface IPersonService {
 
@@ -27,4 +28,8 @@ public interface IPersonService {
     * @return true si l'id existe, return flase si l'id n'existe pas.
 	*/
 	public boolean personIDExists(long id);	
+	
+	public void close();
+	
+	public boolean updatePerson(User user, Person person);
 }

@@ -2,6 +2,7 @@ package webdir.main.business.services.imp;
 
 import java.util.Properties;
 
+import javax.annotation.PostConstruct;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.PasswordAuthentication;
@@ -10,13 +11,20 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import webdir.main.business.services.IEmailService;
 
+
+@Component
+@Service
 public class EmailService implements IEmailService {
 	
 	private  String username;
 	private  String password;
 	private  Properties prop;
+	private Session session;
 	
 	
 	public void setProp(Properties prop) {
@@ -31,6 +39,16 @@ public class EmailService implements IEmailService {
 		this.username = username;
 	}
 	
+	@PostConstruct
+	public void init() {
+		/* Session et authentification */
+	session = Session.getInstance(prop, new javax.mail.Authenticator() {
+			protected PasswordAuthentication getPasswordAuthentication() {
+				return new PasswordAuthentication(username, password);
+			}
+		  });
+	}
+	
    /**
 	* Permet d'envoyer un e-mail.
 	* @param recipient adresse e-mail du destinatire.
@@ -40,7 +58,7 @@ public class EmailService implements IEmailService {
 	public void sendEmail(String recipient, String subject, String content) throws MessagingException{
 				
 		/* Session et authentification */
-		Session session = Session.getInstance(prop,
+		session = Session.getInstance(prop,
 		  new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
 				return new PasswordAuthentication(username, password);

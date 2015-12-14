@@ -13,5 +13,7 @@ public interface IEmailService {
 	*/
 	public void sendEmail(String recipient, String subject, String content) 
 			throws MessagingException;
+	
+	public void init();
 
 }
