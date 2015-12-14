@@ -21,8 +21,6 @@
 	<context:component-scan base-package="webdir.main.business.services.imp" />
 	<context:component-scan base-package="webdir.main.business.services" />
 	
-	
-
 	<!-- BEANS -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
@@ -37,6 +35,21 @@
 	
 	<bean id="homeController" class="webdir.main.web.imp.HomeController" />
 	
+	<bean id="emailService" class="webdir.main.business.services.imp.EmailService" >
+		<property name="username" value="secu.webdirectory.luminy@gmail.com" />
+		<property name="password" value="Masterfsi" />
+		
+		<property name="prop">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.host">smtp.gmail.com</prop>
+				<prop key="mail.smtp.port">587</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
 	
 	 <!-- Usine à fabriquer les EntityManager -->
     <bean id="myEntityManagerFactory"
@@ -48,9 +61,9 @@
     <bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="myEntityManagerFactory" />
     </bean>
-
+    
     <!-- Prise en compte des annotations @Transactional -->
     <tx:annotation-driven transaction-manager="txManager" />
-
+    
 	
 </beans>

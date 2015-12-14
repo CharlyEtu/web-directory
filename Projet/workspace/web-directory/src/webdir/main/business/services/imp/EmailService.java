@@ -39,6 +39,9 @@ public class EmailService implements IEmailService {
 		this.username = username;
 	}
 	
+   /**
+    *  Initialise une session d'authentification pour de connecter à la boite e-mail
+	*/
 	@PostConstruct
 	public void init() {
 	/* Session et authentification */
@@ -51,7 +54,7 @@ public class EmailService implements IEmailService {
 	}
 	
 	
-       /**
+   /**
 	* Permet d'envoyer un e-mail.
 	* @param recipient adresse e-mail du destinatire.
 	* @param subject sujet de l'e-mail.

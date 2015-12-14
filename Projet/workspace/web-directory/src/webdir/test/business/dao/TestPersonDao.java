@@ -16,6 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
 
 import webdir.main.business.dao.IPersonDao;
+import webdir.main.model.Group;
 import webdir.main.model.Person;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -51,9 +52,8 @@ public class TestPersonDao {
 	public void testFindAll() {
 
 		Collection<Person> persons = personDao.getAllPersons();
-
-		System.out.println("Requête like - taille de la liste: " + persons.size());
-
+        
+		
 		for (Person person : persons) {
 			System.out.println(person);
 		}
@@ -62,8 +62,33 @@ public class TestPersonDao {
 	@Test
 	public void testGetPerson() throws Exception{
 		Person person = personDao.getPerson(1);
-		System.out.println(person);
+		
+		Person exceptedPerson = new Person();
+		
+		exceptedPerson.setId(1);
+		exceptedPerson.setFirstname("Amirdine");
+		exceptedPerson.setLastname("MDJASSIRI");
+		exceptedPerson.setEmail("mdjassiri.amirdine@gmail.com");
+		exceptedPerson.setWebsite("http://amirdine.mdjassiri.etu.perso.luminy.univ-amu.fr/");
+		exceptedPerson.setPassword("d8gfh");
+		
+		String date_s = "25/08/1990";
+		SimpleDateFormat dt = new SimpleDateFormat("dd/MM/yyyy");
+		Date birthdate = dt.parse(date_s);
+		exceptedPerson.setBirthdate(birthdate);
+		
+		Group groupA = new Group();
+		groupA.setGroupID(1);
+		groupA.setName("Groupe A");
+		
+		exceptedPerson.setGroup(groupA);
+		
+		boolean result= person.toString().contentEquals(exceptedPerson.toString());
+	
+		assertEquals(true,result);
 	}
+	
+	
 	
 	@Test 
 	public void testPersonIdExits(){
@@ -95,4 +120,6 @@ public class TestPersonDao {
 		
 		personDao.updatePerson(person);
 	}
+	
+
 }

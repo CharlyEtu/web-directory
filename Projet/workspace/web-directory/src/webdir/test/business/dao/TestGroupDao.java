@@ -45,15 +45,25 @@ public class TestGroupDao {
 
 	@Test
 	public void testGetGroup() throws InterruptedException{
-		groupDao.getGroup(1);
+
+		Group group = groupDao.getGroup(1);
+		
+		Group exceptedGroup = new Group();
+		
+		exceptedGroup.setGroupID(1);
+		exceptedGroup.setName("Groupe A");
+		
+		boolean result = exceptedGroup.toString().contentEquals(group.toString());
+		assertEquals(true,result);
 	}
 	
 	@Test
 	public void testGroupContent() {
 		
-		Collection<Person> persons = groupDao.getContentGroup(1);
+		int groupID = 1;
+		Collection<Person> persons = groupDao.getContentGroup(groupID);
 		
-		System.out.println("Groupe content");
+		System.out.println("Contenu du Groupe " + groupDao.getGroup(groupID).getName());
 		for (Person person : persons) {
 			System.out.println(person);
 		}

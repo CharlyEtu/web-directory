@@ -183,9 +183,15 @@ public class Person {
 		
 		String string = "Person: \n";
 		
+		string += "- ID: " + this.getId() + "\n";
 		string += "- Prénom: " + getFirstname() + "\n";
 		string += "- Nom: " + getLastname() + "\n";
 		string += "- e-mail: " + getEmail() + "\n";
+		string += "- Date de naissance: " + getBirthdate() + "\n";
+		string += "- Site web: " + getWebsite () + "\n";
+		string += "- Mot de passe: " + getPassword() + "\n";
+		string += "- Groupe ID: " + getGroup().getGroupID() + "\n";
+		string += "- Nom de groupe: " + getGroup().getName() + "\n";
 		
 		return string;
 	}
