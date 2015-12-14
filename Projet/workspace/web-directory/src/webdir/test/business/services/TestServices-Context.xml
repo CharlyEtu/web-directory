@@ -35,6 +35,21 @@
 	
 	<bean id="homeController" class="webdir.main.web.imp.HomeController" />
 	
+	<bean id="emailService" class="webdir.main.business.services.imp.EmailService" >
+		<property name="username" value="secu.webdirectory.luminy@gmail.com" />
+		<property name="password" value="Masterfsi" />
+		
+		<property name="prop">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.host">smtp.gmail.com</prop>
+				<prop key="mail.smtp.port">587</prop>
+			</props>
+		</property>
+	</bean>
+	
+	
 	
 	 <!-- Usine à fabriquer les EntityManager -->
     <bean id="myEntityManagerFactory"

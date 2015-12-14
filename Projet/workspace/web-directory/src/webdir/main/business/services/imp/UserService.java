@@ -18,6 +18,10 @@ public class UserService implements IUserService {
 	
 	@Autowired
 	IPersonDao personDao;
+	
+	@Autowired
+	IEmailService emailService;
+	
     
     private Person person;
 	
@@ -51,10 +55,9 @@ public class UserService implements IUserService {
 		Person person = personDao.getPerson(id);
 		String password = person.getPassword();
 		
-		IEmailService emailService = new EmailService();
-		
+	
 		String recipient = person.getEmail();
-		String subject = "récupération de votre mot de passe";
+		String subject = "Récupération de votre mot de passe";
 		String content = "Bonjour, \n\n Votre mot de passe est: " + password + "\n\n "
 						+ "L'Equipe Secu Webdirectory";
 		

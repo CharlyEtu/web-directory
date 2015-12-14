@@ -71,4 +71,7 @@ public class GroupService implements IGroupService{
  			return groupDao.groupIdExists(id);
  		}
 	
+ 		public void close(){
+ 			groupDao.close();
+ 		}
 }

@@ -13,7 +13,7 @@
         <properties>
             <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
             <!-- BEGIN Données BD et utilisateur -->
-            <property name="openjpa.ConnectionURL"      value="jdbc:mysql://localhost/m903083" />
+            <property name="openjpa.ConnectionURL"      value="jdbc:mysql://dbs-perso.luminy.univmed.fr/m903083" />
             <property name="openjpa.ConnectionUserName" value="m903083" />
             <property name="openjpa.ConnectionPassword" value="xvfnUv" />
             <!-- END -->

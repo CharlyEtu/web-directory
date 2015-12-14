@@ -36,4 +36,7 @@ public interface IGroupService {
    */
 	public boolean groupIDExists(long id);
 	
+	
+	public void close();
+	
 }
