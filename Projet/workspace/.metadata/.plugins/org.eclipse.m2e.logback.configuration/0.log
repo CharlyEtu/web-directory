@@ -5786,3 +5786,615 @@
 2015-12-14 17:39:20,841 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
 2015-12-14 17:39:20,846 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-12-14 17:39:20,846 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:00:27,279 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:00:28,126 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/2.5.6/spring-test-2.5.6.pom
+2015-12-14 18:00:28,205 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/2.5.6/spring-test-2.5.6.pom
+2015-12-14 18:00:28,364 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2015-12-14 18:00:28,430 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2015-12-14 18:00:28,887 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/2.5.6/spring-test-2.5.6.jar
+2015-12-14 18:00:29,805 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/2.5.6/spring-test-2.5.6.jar
+2015-12-14 18:00:29,933 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2015-12-14 18:00:30,486 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2015-12-14 18:00:32,754 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:00:32,755 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:00:32,760 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:00:32,761 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:00:32,761 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:00:32,762 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:00:32,768 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2015-12-14 18:00:32,772 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2015-12-14 18:00:32,792 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:01:02,065 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:01:02,066 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:01:02,069 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:01:02,070 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:03:21,351 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:03:21,351 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:03:21,353 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:03:21,354 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:04:07,881 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:04:07,882 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:04:07,885 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:04:07,885 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:05:03,065 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:05:03,066 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:05:03,068 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:05:03,069 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:09:48,453 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:09:48,453 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:09:48,455 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:09:48,455 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:11:12,684 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-12-14 18:11:13,361 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:11:15,412 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web-directory/src
+2015-12-14 18:11:15,413 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /web-directory/src/test/java because it overlaps with /web-directory/src
+2015-12-14 18:11:16,308 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for web-directory
+2015-12-14 18:11:16,318 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2015-12-14 18:11:18,516 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:11:18,517 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:11:18,522 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:11:18,523 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:11:18,523 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:11:18,523 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:11:18,534 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:17:28,143 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:17:30,443 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:17:30,445 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:17:30,450 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:17:30,451 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:18:43,222 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:18:43,226 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:18:43,229 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:18:43,230 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:19:28,753 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:28,754 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:19:28,757 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:28,758 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:19:43,643 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:43,644 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:19:43,649 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:43,650 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:19:51,961 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:51,962 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:19:51,965 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:19:51,965 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:24:33,830 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:24:34,577 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2015-12-14 18:24:34,716 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2015-12-14 18:24:34,827 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2015-12-14 18:24:34,908 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2015-12-14 18:24:35,044 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2015-12-14 18:24:35,775 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2015-12-14 18:24:37,141 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:24:37,141 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:24:37,146 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:24:37,146 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:24:37,147 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:24:37,148 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:24:37,168 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2015-12-14 18:24:37,173 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2015-12-14 18:24:37,184 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:24:38,770 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:24:38,771 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:24:38,774 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:24:38,774 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:25:06,235 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-12-14 18:25:06,805 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:25:08,058 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web-directory/src
+2015-12-14 18:25:08,059 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /web-directory/src/test/java because it overlaps with /web-directory/src
+2015-12-14 18:25:08,512 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for web-directory
+2015-12-14 18:25:08,517 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2015-12-14 18:25:10,105 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:25:10,106 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:25:10,109 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:25:10,109 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:25:10,110 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:25:10,110 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:25:10,116 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:26:08,836 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:26:09,902 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:26:09,903 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:26:09,905 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:26:09,906 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:26:09,906 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:26:09,906 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:26:09,912 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:26,347 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:29:27,066 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.4/javax.mail-api-1.5.4.pom
+2015-12-14 18:29:27,126 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.4/javax.mail-api-1.5.4.pom
+2015-12-14 18:29:27,211 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.4/all-1.5.4.pom
+2015-12-14 18:29:27,400 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.4/all-1.5.4.pom
+2015-12-14 18:29:27,469 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2015-12-14 18:29:27,527 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.pom
+2015-12-14 18:29:27,617 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.4/javax.mail-api-1.5.4.jar
+2015-12-14 18:29:28,597 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.4/javax.mail-api-1.5.4.jar
+2015-12-14 18:29:28,655 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2015-12-14 18:29:29,081 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1.jar
+2015-12-14 18:29:30,982 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:30,982 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:29:30,986 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:30,987 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:29:30,987 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:29:30,987 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:29:30,995 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:33,641 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:33,641 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:29:33,646 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:29:33,646 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:30:38,123 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:30:39,450 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:30:39,451 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:30:39,455 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:30:39,456 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:30:39,456 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:30:39,456 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:30:39,465 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:30:58,964 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-12-14 18:30:59,508 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:31:00,873 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web-directory/src
+2015-12-14 18:31:00,874 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /web-directory/src/test/java because it overlaps with /web-directory/src
+2015-12-14 18:31:01,346 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for web-directory
+2015-12-14 18:31:01,352 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2015-12-14 18:31:03,685 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:31:03,686 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:31:03,690 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:31:03,691 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:31:03,691 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:31:03,691 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:31:03,699 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:32:15,618 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:32:15,667 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:32:15,684 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:32:15,685 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:37:21,160 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:37:21,161 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:37:21,165 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:37:21,165 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:37:30,793 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-12-14 18:37:31,769 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:37:33,865 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web-directory/src
+2015-12-14 18:37:33,865 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /web-directory/src/test/java because it overlaps with /web-directory/src
+2015-12-14 18:37:34,469 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for web-directory
+2015-12-14 18:37:34,481 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2015-12-14 18:37:37,543 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:37:37,544 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:37:37,548 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:37:37,549 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:37:37,549 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:37:37,550 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:37:37,557 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2015-12-14 18:37:37,561 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-install-plugin:jar:2.4 is missing, no dependency information available
+2015-12-14 18:37:37,571 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:06,852 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:48:08,263 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.pom
+2015-12-14 18:48:08,373 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.pom
+2015-12-14 18:48:08,519 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.jar
+2015-12-14 18:48:11,685 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.4/javax.mail-1.5.4.jar
+2015-12-14 18:48:14,468 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:14,482 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:48:14,486 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:14,487 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:48:14,488 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:48:14,488 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:48:14,496 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:19,065 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 18:48:21,336 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:21,348 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 18:48:21,352 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 18:48:21,353 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 18:48:21,353 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web-directory
+2015-12-14 18:48:21,353 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web-directory
+2015-12-14 18:48:21,359 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:02:56,190 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:02:56,191 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:02:56,193 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:02:56,193 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:04:07,851 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:04:07,851 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:04:07,854 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:04:07,855 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:21:18,144 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 19:21:22,711 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:21:22,714 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:21:22,718 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:21:22,719 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:37:15,973 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:37:15,974 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:37:15,976 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:37:15,976 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:38:08,423 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:38:08,423 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:38:08,429 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:38:08,430 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:45:47,109 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 19:45:51,156 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:45:51,159 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:45:51,165 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:45:51,165 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:48:32,329 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:48:32,331 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:48:32,335 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:48:32,335 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:50:21,246 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:50:21,248 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:50:21,252 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:50:21,253 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:51:16,613 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:51:16,613 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:51:16,616 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:51:16,616 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:51:34,356 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:51:34,357 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:51:34,360 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:51:34,361 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:53:18,735 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:53:18,736 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:53:18,739 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:53:18,740 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:55:00,418 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:55:00,419 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:55:00,421 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:55:00,421 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:56:16,880 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:56:16,881 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:56:16,886 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:56:16,887 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:56:28,630 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:56:28,630 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:56:28,633 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:56:28,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 19:57:08,877 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:57:08,878 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 19:57:08,882 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 19:57:08,882 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 20:57:20,838 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 20:57:23,619 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:57:23,620 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 20:57:23,624 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:57:23,624 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 20:57:28,635 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:57:28,636 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 20:57:28,639 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:57:28,640 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 20:59:08,954 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:59:08,955 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 20:59:08,959 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 20:59:08,960 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:01:40,203 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:01:40,204 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:01:40,206 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:01:40,206 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:02:20,553 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:02:20,554 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:02:20,557 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:02:20,558 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:02:28,319 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:02:28,324 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:02:28,327 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:02:28,327 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:03:57,951 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:03:57,952 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:03:57,958 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:03:57,958 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:04:41,604 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:04:41,604 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:04:41,610 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:04:41,611 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:05:55,668 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:05:55,669 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:05:55,671 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:05:55,672 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:06:25,183 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:06:25,183 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:06:25,186 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:06:25,187 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:07:54,211 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:07:54,212 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:07:54,216 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:07:54,217 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:08:20,232 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:08:20,233 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:08:20,236 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:08:20,236 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:09:05,668 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:09:05,668 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:09:05,670 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:09:05,671 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:09:30,301 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:09:30,302 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:09:30,305 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:09:30,305 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:10:34,403 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:10:34,404 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:10:34,407 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:10:34,408 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:10:48,975 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:10:48,976 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:10:48,981 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:10:48,981 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:11:14,946 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:11:14,947 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:11:14,953 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:11:14,954 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:11:39,813 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:11:39,813 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:11:39,815 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:11:39,816 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:20:49,359 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:20:49,359 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:20:49,361 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:20:49,362 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:20:53,274 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:20:53,274 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:20:53,280 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:20:53,281 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:21:21,223 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:21:21,223 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:21:21,225 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:21:21,225 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:22:50,996 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:22:50,997 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:22:51,002 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:22:51,003 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:23:09,319 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:23:09,319 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:23:09,322 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:23:09,323 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:23:53,517 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:23:53,518 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:23:53,520 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:23:53,521 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:24:04,278 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:04,278 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:24:04,283 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:04,283 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:24:20,993 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:20,993 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:24:20,995 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:20,997 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:24:51,194 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:51,195 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:24:51,197 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:24:51,198 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:25:07,848 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:07,849 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:25:07,850 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:07,851 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:25:14,408 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:14,409 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:25:14,411 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:14,411 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:25:50,486 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:50,486 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:25:50,489 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:25:50,489 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:28:12,740 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:28:12,741 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:28:12,743 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:28:12,744 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:30:03,853 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:30:03,854 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:30:03,856 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:30:03,856 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:42:10,705 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 21:42:14,026 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:42:14,028 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:42:14,032 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:42:14,032 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:59:33,974 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:59:33,975 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:59:33,977 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:59:33,977 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 21:59:57,465 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:59:57,465 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 21:59:57,467 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 21:59:57,467 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:04:11,209 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:04:11,210 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:04:11,212 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:04:11,213 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:04:25,346 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:04:25,346 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:04:25,349 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:04:25,350 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:07:19,875 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:07:19,876 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:07:19,888 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:07:19,888 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:08:55,042 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 22:08:59,149 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:08:59,151 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:08:59,158 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:08:59,158 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:10:07,364 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:07,365 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:10:07,367 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:07,367 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:10:19,821 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:19,822 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:10:19,826 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:19,827 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:10:29,029 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:29,030 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:10:29,033 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:29,034 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:10:41,591 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:41,592 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:10:41,594 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:10:41,594 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:15:55,752 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:15:55,752 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:15:55,755 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:15:55,756 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:23:20,566 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:23:20,566 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:23:20,569 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:23:20,569 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:34:36,258 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:34:36,259 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:34:36,265 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:34:36,265 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:36:11,139 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 22:36:15,538 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:36:15,540 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:36:15,546 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:36:15,547 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:39:54,471 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:39:54,473 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:39:54,476 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:39:54,476 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:48:00,597 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:48:00,597 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:48:00,599 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:48:00,599 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:52:46,464 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:52:46,465 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:52:46,467 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:52:46,467 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:54:29,896 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 22:54:33,162 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:54:33,163 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:54:33,169 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:54:33,169 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 22:55:20,914 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:55:20,915 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 22:55:20,918 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 22:55:20,918 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:12:09,276 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:12:09,277 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:12:09,281 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:12:09,281 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:15:44,865 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:15:44,865 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:15:44,867 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:15:44,867 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:16:28,274 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:16:28,275 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:16:28,279 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:16:28,280 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:19:54,002 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:19:54,002 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:19:54,004 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:19:54,005 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:20:43,581 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:20:43,582 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:20:43,585 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:20:43,586 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:21:26,148 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:21:26,148 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:21:26,150 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:21:26,150 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:23:23,496 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:23:23,497 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:23:23,499 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:23:23,500 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:25:47,167 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:25:47,168 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:25:47,171 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:25:47,171 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:26:20,146 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:26:20,147 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:26:20,148 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:26:20,149 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:30:48,290 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-14 23:30:53,308 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:30:53,321 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:30:53,327 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:30:53,327 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:33:27,993 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:33:27,994 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:33:27,996 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:33:27,997 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:34:33,025 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:34:33,026 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:34:33,028 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:34:33,029 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:35:20,974 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:35:20,975 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:35:20,977 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:35:20,977 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:36:10,275 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:36:10,275 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:36:10,277 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:36:10,277 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:38:00,550 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:38:00,550 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:38:00,552 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:38:00,553 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:41:37,837 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:41:37,837 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:41:37,839 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:41:37,839 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:42:42,383 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:42:42,383 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:42:42,387 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:42:42,387 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:43:28,539 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:43:28,540 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:43:28,541 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:43:28,542 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:45:04,982 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:45:04,982 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:45:04,985 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:45:04,986 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:45:46,571 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:45:46,571 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:45:46,574 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:45:46,574 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:53:35,648 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:53:35,648 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:53:35,651 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:53:35,651 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:54:35,279 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:54:35,280 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:54:35,281 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:54:35,282 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:58:29,051 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:58:29,052 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:58:29,054 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:58:29,054 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-14 23:59:01,115 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:59:01,116 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-14 23:59:01,119 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-14 23:59:01,119 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:07:33,669 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:07:33,670 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:07:33,673 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:07:33,673 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:09:16,592 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:16,593 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:09:16,595 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:16,596 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:09:32,716 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:32,717 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:09:32,720 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:32,720 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:09:48,487 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:48,488 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:09:48,489 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:09:48,490 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:12:30,112 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:12:30,112 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:12:30,115 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:12:30,116 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:13:07,740 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:13:07,741 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:13:07,743 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:13:07,743 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:18:20,098 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:18:20,098 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:18:20,100 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:18:20,100 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:21:19,730 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:21:19,731 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:21:19,733 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:21:19,734 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 00:22:42,433 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:22:42,433 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 00:22:42,435 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 00:22:42,435 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources
+2015-12-15 13:03:53,280 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: web-directory:web-directory:0.0.1-SNAPSHOT @ /home/charly/Fac/JEE/Projet/workspace/web-directory/pom.xml.
+2015-12-15 13:03:55,559 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 13:03:55,561 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/main/resources
+2015-12-15 13:03:55,566 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-15 13:03:55,567 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charly/Fac/JEE/Projet/workspace/web-directory/src/test/resources

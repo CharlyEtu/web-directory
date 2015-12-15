@@ -1,8 +1,8 @@
 <%@ include file="/WEB-INF/jsp/includes/meta.jsp" %>
 
-<c:url var="webIcon" value="resources/img/world-wide-web-24958_960_720-2.gif" />
+<c:url var="webIcon" value="/resources/img/world-wide-web-24958_960_720-2.gif" />
 <c:url var="sheet" value="/usersheet"/>
-<c:url var="sheetIcon" value="resources/img/user_file.jpg" />
+<c:url var="sheetIcon" value="/resources/img/user_file.jpg" />
 
 <html>
   <!-- EN-TÊTE DE LA PAGE (Meta-informations) -->
@@ -40,7 +40,7 @@
 	   				<td><c:out value="${p.getFirstname()}" default="None" /></td>
 	   				<td><c:out value="${p.getLastname()}" default="None" /></td>
 	   				<td style="text-align: center;">
-	   					<a href="https://${p.getWebsite()}" 
+	   					<a href="${p.getWebsite()}" 
 	   					   title="Site web de ${p.getFirstname()} ${p.getLastname()}">
 	   						<img src="${webIcon}" alt="web" />
 	   					</a>
@@ -57,7 +57,7 @@
 	   		</c:forEach>
 	    </table>
 	</div>
-    
+	
     <!-- FOOTER -->
 	<%@ include file="includes/footer.jsp" %>	    
   </body>

@@ -16,7 +16,7 @@ public class Group {
 
 	@Id
 	@GeneratedValue( strategy=GenerationType.AUTO )
-	private long group_id;
+	private long groupID;
 	
 	@Column(name = "groupe", length = 200, nullable = false)
 	private String name;
@@ -25,16 +25,16 @@ public class Group {
     * Retourne l'identifiant du groupe
 	* @return L'identifiant du groupe.
 	*/
-	public long getID() {
-		return group_id;
+	public long getGroupID() {
+		return groupID;
 	}
 	
    /**
     * Permet de fixer l'identifiant du groupe.
 	* @param id numerdo du groupe.
 	*/
-	public void setId(long id) {
-		this.group_id = id;
+	public void setGroupID(long id) {
+		this.groupID = id;
 	}
 	
    /**
@@ -57,11 +57,11 @@ public class Group {
 		
 		String string = "Groupe: \n";
 		
-		string += "- Prénom: " + getID() + "\n";
+		string += "- ID: " + getGroupID() + "\n";
 		string += "- Nom: " + getName() + "\n";
 		
 		return string;
 	}
-	
+
 		
 }

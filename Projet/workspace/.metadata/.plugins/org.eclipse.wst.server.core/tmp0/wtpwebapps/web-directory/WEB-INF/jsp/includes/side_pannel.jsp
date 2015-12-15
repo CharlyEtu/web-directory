@@ -7,7 +7,7 @@
 			<li><a href="${home}" title="Accueil">Accueil</a></li>
 			<c:forEach var="g" items="${groupIterator}">
 				<li>
-		    		<a href="groups/${g.getName()}"
+		    		<a href="${home}/group;id=${g.getGroupID()}"
 		    		   title="Liste des membres du groupe ${g.getName()}">
 		    			${g.getName()}
 		    		</a>

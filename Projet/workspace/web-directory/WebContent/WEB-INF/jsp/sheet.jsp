@@ -32,17 +32,18 @@
     		<p>Email : ${person.getEmail()}
     		<p>
     			<img id="webIconMini" src="${webIconMini}" />
-    			<a href="https://${person.getWebsite()}"
+    			<a href="${person.getWebsite()}"
     			  title="Site web de ${person.getFirstname()} ${person.getLastname()}">
     				Site web personnel
     			</a> 
     		</p>
-    		<c:if test="${person.getId() == userInfo.getId()}">
+    		<c:if test="${userInfo.isAuthenticated() &&
+    					(person.getId() == userInfo.getId())}">
     			<p id="editLinks">
-    				<a href="${editSheet};id=${userInfo.getId()}" title="Éditer votre fiche">
+    				<a href="${editSheet}" title="Éditer votre fiche">
     					Éditer ma fiche
     				</a>
-    				<a href="${changePwd};id=${userInfo.getId()}" title="Modifier votre mot de passe">
+    				<a href="${changePwd}" title="Modifier votre mot de passe">
     					Modifier mon mot de passe
     				</a>
     			</p>

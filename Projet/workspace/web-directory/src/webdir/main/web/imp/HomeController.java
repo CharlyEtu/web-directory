@@ -6,6 +6,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.MatrixVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -64,5 +65,16 @@ public class HomeController extends WebDirController implements IHomeController 
         home.addObject("groupIterator", gList.iterator());
         
         return home;
+    }
+    
+    @RequestMapping(value="/group{id}", method = RequestMethod.GET)
+    public ModelAndView printGroup(@MatrixVariable long id) {
+    	Collection<Person> pList = groupServ.getGroupContent(id);
+    	ModelAndView group = getModelAndView("group");
+    	
+    	group.addObject("personIterator", pList.iterator());
+    	group.addObject("groupName", groupServ.getGroup(id).getName());
+    	
+    	return group;
     }
 }

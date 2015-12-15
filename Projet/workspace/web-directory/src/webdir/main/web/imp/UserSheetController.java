@@ -5,12 +5,15 @@ import javax.annotation.PreDestroy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.MatrixVariable;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import webdir.main.business.services.IPersonService;
+import webdir.main.model.Person;
 
 @Controller
 @RequestMapping("/usersheet{id}")
@@ -38,6 +41,11 @@ public class UserSheetController extends WebDirController {
     public void setPersonServ(IPersonService personServ) {
     	this.personServ = personServ;
     }
+    
+    @ModelAttribute
+    public Person newPerson() {
+    	return new Person();
+    }
 
 	@RequestMapping(method = RequestMethod.GET)
     public ModelAndView printPersonSheet(@MatrixVariable long id) {
@@ -47,6 +55,7 @@ public class UserSheetController extends WebDirController {
 	    	try {
 	    		sheet.addObject("person", personServ.getPerson(id));
 			} catch (Exception e) {
+				e.printStackTrace();
 				logger.error("Requested person not found (Person id : " + id + ". "
 								+ "Controller : " + this);
 				errorPage("Désolé, la personne demandée est introuvable.");
@@ -59,8 +68,31 @@ public class UserSheetController extends WebDirController {
     				+ "utilisateur pour avoir accès à cette page.");
     }
 	
-	@RequestMapping(value="/edit{id}", method = RequestMethod.GET)
-	public ModelAndView test() {
-		return getModelAndView("redirect:/home");
+	@RequestMapping(value="/edit", method = RequestMethod.GET)
+	public ModelAndView sheetEdition(/*@ModelAttribute Person person*/) {
+		Person person = null;
+		
+		try {
+			person = personServ.getPerson(userInfo.getId());
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error("Requested person for edition not found (Person id : "
+					+ userInfo.getId() + ". Controller : " + this);
+			errorPage("Désolé, la personne demandée est introuvable.");
+		}
+		
+		ModelAndView mav = getModelAndView("editsheet");
+		mav.addObject("person", person);
+		return mav;
+	}
+	
+	@RequestMapping(value="/edit", method = RequestMethod.POST)
+	public ModelAndView editSheet(@ModelAttribute Person person,
+	BindingResult res) {
+		//VALIDER DONNEES
+		
+		personServ.updatePerson(userInfo, person);
+		
+		return getModelAndView("redirect:/usersheet");
 	}
 }
