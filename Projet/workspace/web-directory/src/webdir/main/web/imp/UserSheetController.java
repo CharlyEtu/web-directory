@@ -1,7 +1,13 @@
 package webdir.main.web.imp;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,7 +19,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import webdir.main.business.services.IPersonService;
+import webdir.main.business.services.IUserService;
+import webdir.main.business.services.imp.UserService;
+import webdir.main.model.Group;
 import webdir.main.model.Person;
+import webdir.main.web.imp.PersonValidator;
 
 @Controller
 @RequestMapping("/usersheet{id}")
@@ -21,6 +31,12 @@ public class UserSheetController extends WebDirController {
 	
 	/** Service d'accès aux personnes */
 	private IPersonService personServ;
+	
+	@Autowired
+    PersonValidator personValidator;
+	
+	@Autowired
+    IUserService userService;
 	
 	@PostConstruct
     public void init() {
@@ -46,6 +62,18 @@ public class UserSheetController extends WebDirController {
     public Person newPerson() {
     	return new Person();
     }
+    
+    /***   Liste des groupes ***/	
+	 @ModelAttribute("groups")
+    public Map<Integer, String> productTypes() {
+        
+    	Map<Integer, String> groups = new LinkedHashMap<>();
+    	
+        for(Group group: groupServ.getAllGroups()){
+        	 groups.put((int) group.getGroupID(), group.getName()); 	
+        }
+        return groups;
+	 }
 
 	@RequestMapping(method = RequestMethod.GET)
     public ModelAndView printPersonSheet(@MatrixVariable long id) {
@@ -68,8 +96,8 @@ public class UserSheetController extends WebDirController {
     				+ "utilisateur pour avoir accès à cette page.");
     }
 	
-	@RequestMapping(value="/edit", method = RequestMethod.GET)
-	public ModelAndView sheetEdition(/*@ModelAttribute Person person*/) {
+	/*@RequestMapping(value="/edit", method = RequestMethod.GET)
+	public ModelAndView sheetEdition(@ModelAttribute Person person) {
 		Person person = null;
 		
 		try {
@@ -94,5 +122,93 @@ public class UserSheetController extends WebDirController {
 		personServ.updatePerson(userInfo, person);
 		
 		return getModelAndView("redirect:/usersheet");
+	}*/
+	
+	/***   GET  ***/	
+	@RequestMapping(value = "/edit", method = RequestMethod.GET)
+	public ModelAndView editGet(@ModelAttribute Person p) throws NumberFormatException, Exception {
+	    logger.info("Running " + this);
+	    
+	    Person userProfil = personServ.getPerson(userInfo.getId());
+		ModelAndView modelAndView = new ModelAndView("editsheet");
+		
+		modelAndView.addObject("firstname", userProfil.getFirstname());
+		modelAndView.addObject("lastname", userProfil.getLastname());
+		modelAndView.addObject("email", userProfil.getEmail());
+		
+		String date = new SimpleDateFormat("yyyy-MM-dd").format(userProfil.getBirthdate());
+		
+		modelAndView.addObject("birthdate", date);
+		
+		
+	    return modelAndView;
 	}
+	
+	/*** POST **/
+	@RequestMapping(value = "/edit", method = RequestMethod.POST)
+    public ModelAndView editPost(@ModelAttribute Person person,
+    BindingResult result, HttpServletRequest request)
+    throws NumberFormatException, Exception {
+    	
+    	personValidator.validate(person, result, request);
+    	
+    	if (result.hasErrors()) {
+    		
+    		Person userProfil = personServ.getPerson(userInfo.getId());
+    		ModelAndView modelAndView = new ModelAndView("editsheet");
+    		
+    		modelAndView.addObject("firsname", userProfil.getFirstname());
+    		modelAndView.addObject("lastname", userProfil.getLastname());
+    		modelAndView.addObject("email", userProfil.getEmail());
+    		String date = new SimpleDateFormat("yyyy-MM-dd").format(userProfil.getBirthdate());
+    		modelAndView.addObject("birthdate", date);
+               
+    		return modelAndView;
+        }
+    	
+    	
+    	
+    	person.setId(userInfo.getId());
+    	
+    	if(!request.getParameter("group_").isEmpty()){
+    	    Group group =  groupServ.getGroup(new Integer(request.getParameter("group_")));
+    	    person.setGroup(group);
+    	}
+    	
+    	String date_s = request.getParameter("date");
+		SimpleDateFormat dt = new SimpleDateFormat("yyyy-mm-dd");
+		Date birthdate = dt.parse(date_s);
+		
+    	person.setBirthdate(birthdate);
+    
+    	personServ.updatePerson(userInfo, person);
+        return  new ModelAndView("usersheet");
+    }
+	
+	/********************************************************
+	  *   				User Service                         *
+	  *                   (Mail)                             *
+	  ********************************************************/ 
+	 
+	 
+	  /***   GET  ***/
+	 @RequestMapping(value = "/forgottenpwd", method = RequestMethod.GET)
+	 public ModelAndView passwordGet(@ModelAttribute UserService userService) throws NumberFormatException, Exception {
+        logger.info("Running " + this);
+        
+		ModelAndView modelAndView = new ModelAndView("password");
+		
+        return modelAndView;
+    } 
+	 
+	     /***   POST  ***/
+	 @RequestMapping(value = "/forgottenpwd", method = RequestMethod.POST)
+	 public ModelAndView passwordPost(@ModelAttribute UserService userService) throws NumberFormatException, Exception {
+        logger.info("Running " + this);
+        
+		ModelAndView modelAndView = new ModelAndView("success_pass");
+		
+		this.userService.sendUserPassword(userInfo.getId());
+        return modelAndView;
+    } 
 }

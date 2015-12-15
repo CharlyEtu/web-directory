@@ -25,7 +25,6 @@ INDEX VERSION 1.127+/home/charly/Fac/JEE/Projet/workspace/.metadata/.plugins/org
 2426646370.index
 392775124.index
 3024443790.index
-794239936.index
 1938993971.index
 1259291233.index
 4021334865.index

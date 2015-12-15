@@ -1,5 +1,6 @@
 <c:url var="signout" value="/signout" />
 <c:url var="signin" value="/signin" />
+<c:url var="pwd" value="/usersheet/forgottenpwd" />
 
 <div id="header">
 	<div id="banner">
@@ -19,7 +20,12 @@
 			</c:when>
 			<c:otherwise>
 				<a href="${signin}" title="Connexion">Connexion</a>
-			</c:otherwise>
+			</c:otherwise>			
 		</c:choose>
+		
+		<a href="${pwd}" title="Mot de passe oublié"
+		   style="margin-left: 5px;">
+			Mot de passe oublié
+		</a>
 	</div>
 </div>

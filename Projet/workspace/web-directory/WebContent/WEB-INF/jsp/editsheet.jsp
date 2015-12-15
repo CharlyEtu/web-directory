@@ -20,6 +20,7 @@
 		<div id="contents">
     		<h2>Édition de la fiche</h2>
     		
+    		<!--
     		<form:form method="POST" commandName="person">
     			<form:errors path="*" cssClass="errorBlock" element="div" />
     			
@@ -48,7 +49,48 @@
     			<form:errors path="group" cssClass="error" /><br />
     			
     			<input type="submit" value="Valider" />  			
-    		</form:form>
+    		</form:form> -->
+    		
+			<form:form method="POST" commandName="person">
+			<form:errors path="*" cssClass="errorBlock" element="div"/>
+			<table>
+				<tr>
+				    <td>Prénom: </td>
+				    <td><form:input path="firstname" value="${firstname}" /></td>
+					<td><form:errors path="firstname" cssClass="error" /></td>
+				</tr>
+				<tr>
+				    <td>Nom : </td>
+				    <td><form:input path="lastname" value="${lastname}"  /></td>
+					<td><form:errors path="lastname" cssClass="error" /></td>
+				</tr>
+				 <tr>
+				    <td>Email : </td>
+				    <td><form:input path="email" value="${email}" /></td>
+					<td><form:errors path="lastname" cssClass="error" /></td>
+				</tr>
+				
+				<tr>
+				    <td>Date : </td>
+				    <td><form:input path="" name="date" value="${birthdate}" /></td>
+					<td><form:errors path="" name="birthdate" cssClass="error" /></td>
+				</tr>
+				
+				<tr>
+					<td>Groupe: </td>
+					<td>
+				    	<form:select path="" name="group_" multiple="false">
+						<form:option value="" label="--- Select ---" />
+						<form:options items="${groups}" />
+						</form:select>
+				  	</td>
+				</tr>
+				  
+				  <tr>
+				      <td colspan="3"><input type="submit" /></td>
+				  </tr>
+			  </table>
+			</form:form>
 		</div>
    
    		<!-- FOOTER -->
