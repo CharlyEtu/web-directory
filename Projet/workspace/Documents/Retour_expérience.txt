@@ -30,6 +30,10 @@
 		- Faire en sorte qu'après la connexion, l'utilisateur retombe sur la page d'où il venait (plutôt que sur la page d'accueil dans tous
 			les cas)
 			
+	* Documents
+	
+		- Faire les plans de tests
+			
 * Retour d'expérience
 
 	Lors du déroulement de ce projet, nous avons rencontré certaines difficultés et des façons de faire qui ne fonctionnaient pas.
