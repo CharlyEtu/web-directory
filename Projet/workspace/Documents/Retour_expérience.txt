@@ -1,0 +1,42 @@
+===================
+/!\ @Amirdine : si tu as des idées à ajouter...
+===================
+
+* Améliorations (liste non-hexaustive)
+
+	* Code
+	
+		- Rendre le code et la structure plus propre
+		- Faire en sorte que tout le code soit bien du XHTML Strict
+		- Mettre des attributs "title" dans toutes les balises HTML où cela est nécéssaire
+		- Mettre toutes les annotations @Service, @Component, @Autowired.. où cela est nécéssaire pour mieux respecter la philosophie
+			des JavaBeans et des services (vérifier qu'il n'y a pas d'inter-dépendances)
+		- Ajouter la génération de logs serveur partout où cela n'est pas déjà fait
+		- Améliorer les noms de fichiers
+		- Écrire les interfaces maquantes pour améliorer la modularité
+	
+	* Présentation
+		
+		- Arranger le visuel du site web
+		- Améliorer les messages d'erreur  des formulaires et leur mise en forme
+	
+	* Fonctionnement
+	
+		- Pouvoir donner le mot de passe de la base de données au démarrage de l'application (plutôt que de l'enregistrer dans le fichier XML)
+		- Mieux sécuriser l'application (toujours vérifier que l'utilisateur est auhtentifier, pour ne pas avoir accès à des pages sensibles sans
+			être authentifié - par exemple, en tapant directement l'URL de la page - etc...)
+		- Rediriger vers la page d'erreur pour tout appel d'une URL invalide
+		- Régler le temps d'expiration d'une session (1 minute actuellement)
+		- Faire en sorte qu'après la connexion, l'utilisateur retombe sur la page d'où il venait (plutôt que sur la page d'accueil dans tous
+			les cas)
+			
+* Retour d'expérience
+
+	Lors du déroulement de ce projet, nous avons rencontré certaines difficultés et des façons de faire qui ne fonctionnaient pas.
+	Voici les point d'amélioration soulevés :
+	
+		- Améliorer la communication dans l'équipe
+		- Vraiment bien penser la conception de l'application dans le détail (en réunion) et la mettre dans un document référence
+		- Mettre en place des conventions, une convention de codage et des procédures et des régles, adoptées par tous les membres,
+			afin d'armoniser le travail
+		- Bien définir, penser et respecter chaque étape du projet
