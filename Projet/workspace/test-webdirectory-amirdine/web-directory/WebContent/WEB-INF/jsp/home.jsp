@@ -44,7 +44,9 @@
 	    </table>
 	</div>
     
+    <b> IMPORTANT </b>
     <a href="test/login"> Connexion</a>
+     <a href="test/password"> Mot de pass perdu</a>
     <!-- FOOTER -->
 	<%@ include file="includes/footer.jsp" %>	    
   </body>
