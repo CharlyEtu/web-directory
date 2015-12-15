@@ -1,0 +1,18 @@
+<c:url var="home" value="/home" />
+
+<div id="side_panel">
+	<!-- NAVIGATION -->
+    <div id="navigation">
+		<ul>
+			<li><a href="${home}" title="Accueil">Accueil</a></li>
+			<c:forEach var="g" items="${groupIterator}">
+				<li>
+		    		<a href="group/${g.getName()};id=${g.getId()}"
+		    		   title="Liste des membres du groupe ${g.getName()}">
+		    			${g.getName()}
+		    		</a>
+		  		</li>	
+			</c:forEach>
+		</ul>
+    </div>
+</div>
